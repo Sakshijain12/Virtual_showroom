@@ -6,6 +6,10 @@ const regex = new RegExp('[a-z]+@iitj.ac.in');
 
 
 const bedRoom = new mongoose.Schema({
+  area : {
+    type: Number,
+    required: true,
+  },
   name: {
     type : String,
     required: true,
