@@ -1,0 +1,22 @@
+{
+  "name": "virtual_showroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noopur-zambare/Virtual_showroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noopur-zambare/Virtual_showroom/issues"
+  },
+  "homepage": "https://github.com/noopur-zambare/Virtual_showroom#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
