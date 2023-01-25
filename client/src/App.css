@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-inner{
+  border-radius: 2rem;
+}
+.d-block{
+  border-radius: 2rem;
+}
