@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css';
+import img from '../images/img2.jpg';
 export default function Slider() {
   return (
     <div id="carouselExampleIndicators" className="carousel slide w-50">
@@ -10,13 +11,13 @@ export default function Slider() {
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active">
-            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190507183137/Embedded-System-Programming-Languages.png" className="d-block w-100" alt="..."/>
+            <img src={img} className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
-            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190507183137/Embedded-System-Programming-Languages.png" className="d-block w-100" alt="..."/>
+            <img src={img} className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
-            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190507183137/Embedded-System-Programming-Languages.png" className="d-block w-100" alt="..."/>
+            <img src={img} className="d-block w-100" alt="..."/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

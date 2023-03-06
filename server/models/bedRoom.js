@@ -2,9 +2,6 @@ const mongoose = require('mongoose');
 const validator = require("validator");
 const regex = new RegExp('[a-z]+@iitj.ac.in');
 
-
-
-
 const bedRoom = new mongoose.Schema({
   area : {
     type: Number,

@@ -13,6 +13,6 @@ router.get("/", (req, res) => {
 			// console.log(req);
 		}
 	});
-	});
+});
 
 module.exports = router;
